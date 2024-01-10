@@ -1,0 +1,148 @@
+/*  Home page */
+h1{
+font-size: 50px;
+text-align: center;
+}
+#homepage_body{
+    margin:0px;
+
+    padding: 0px;
+}
+#homepage_main{
+    color:bla
+}
+.header{
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.photo{
+    max-width: 30%; 
+    float: left;
+    margin-right: 20px;
+    
+}
+#img11{
+    width: 100px;
+    height: auto;
+    display: block;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(10, 25, 112);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.navbar a:hover{
+    background-color: hsl(230, 81%, 11%);
+}
+.navbar li{
+    text-align: center;
+    display: inline-block;
+}
+
+#mission_link, #events_link, #donate_link, #gala_link, #contact_link, #faq_link, #homepage_link{
+    color:white;
+    background-color: rgb(114, 114, 114);
+    font-size: 25px;
+    
+    
+}
+
+
+footer{
+    display:block;
+    clear:both;
+    background-color: rgb(10, 25, 112);
+    text-align: center;
+    padding:25px;
+}
+#footer{
+   color: white;
+   font-size: 25px;
+   margin: 0px;
+}
+#homepage_title{
+    text-align: center;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: hsl(0, 0%, 99%);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-shadow: 5px 5px 100px black, -5px -5px 100px rgb(0, 0, 0),5px 5px 10px black, -5px -5px 10px black;
+    text-decoration:solid;
+    top:800px;
+    
+}
+#homepage2{
+width: 1920px;
+
+}
+/* Mission*/
+#mission_text{
+    font-size: 23px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#img1{
+    float:left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+}
+#achieve{
+   text-align: left;
+    margin-left:  0px; ;
+    margin-right: 500px;
+}
+#achieve_title{
+    text-align: left;
+    margin-top: 100px;
+}
+#img3{
+    float: right;
+    height: 350px;
+    margin-top: 60px;
+    border:inset;
+    border-width: 5px;
+}
+    
+
+/* Gala */
+.margins label,
+.margins input,
+.margins button,
+.margins input[type="reset"] {
+    margin-bottom: 10px;
+}
+
+
+/* Events*/
+/*Donate */
+#donate_main{
+    text-align: center;
+}
+/* FAQ*/
+
